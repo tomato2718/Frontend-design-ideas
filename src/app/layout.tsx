@@ -7,7 +7,6 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <link rel="icon" href="/tomato.svg" sizes="any" />
       <body>{children}</body>
     </html>
   );
