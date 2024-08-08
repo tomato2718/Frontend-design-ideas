@@ -1,0 +1,1 @@
+export { ThemeSwitcherGrids } from "./ThemeSwitcherGrids";

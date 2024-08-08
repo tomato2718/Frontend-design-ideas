@@ -1,6 +1,6 @@
 import clsx from "clsx";
 
-export function ThemeToggleGrids() {
+export function ThemeSwitcherGrids() {
   return (
     <div className="h-full grid grid-cols-8 grid-rows-6">
       <GridContainer componentName="example">

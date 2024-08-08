@@ -10,7 +10,7 @@ export default function Home() {
       <h2 className="text-xl">Pages</h2>
       <ul className="list-inside list-disc">
         <li className="text-light-blue-11 hover:text-light-blue-12">
-          <Link href="/theme-toggles">theme toggles</Link>
+          <Link href="/theme-switcher">theme switcher</Link>
         </li>
       </ul>
     </div>
