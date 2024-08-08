@@ -13,13 +13,20 @@ function ImpContainer({
   return (
     <div
       className={clsx(
-        "flex items-center justify-center h-full",
-        "bg-grayscale-2 text-grayscale-11",
-        "relative",
+        "flex flex-col h-full p-0.5",
+        "bg-grayscale-1 text-grayscale-11",
       )}
     >
-      <span className="absolute top-2 left-2">{componentName}</span>
-      {children}
+      <span className="p-1">{componentName}</span>
+      <div
+        className={clsx(
+          "grow flex items-center justify-center",
+          "bg-grayscale-2",
+          "border rounded-md border-grayscale-3",
+        )}
+      >
+        {children}
+      </div>
     </div>
   );
 }
