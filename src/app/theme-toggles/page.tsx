@@ -1,5 +1,12 @@
 "use client";
 
+import { ThemeToggleGrids } from "@/widgets/ThemeToggleGrids/ThemeToggleGrids";
+
 export default function Home() {
-  return <>123</>;
+  return (
+    <>
+      <title>theme toggles</title>
+      <ThemeToggleGrids />
+    </>
+  );
 }
