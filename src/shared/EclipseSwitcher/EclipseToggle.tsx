@@ -37,7 +37,7 @@ export function EclipseToggle({
             width: `${size * 2}px`,
             transform: themeState.isDarkMode
               ? `translate(${iconRadius * 0.6}px, -${iconRadius * 0.5 + padding + border}px)`
-              : `translate(${iconRadius * 2}px, -${iconRadius * 2}px)`,
+              : `translate(${iconRadius * 2.4}px, -${iconRadius * 2}px)`,
           }}
         />
       </div>
