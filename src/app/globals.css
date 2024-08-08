@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --grayscale-1: #fcfcfc;
+  --grayscale-2: #f9f9f9;
+  --grayscale-3: #f0f0f0;
+  --grayscale-4: #e8e8e8;
+  --grayscale-5: #e0e0e0;
+  --grayscale-6: #d9d9d9;
+  --grayscale-7: #cecece;
+  --grayscale-8: #bbbbbb;
+  --grayscale-9: #8d8d8d;
+  --grayscale-10: #838383;
+  --grayscale-11: #646464;
+  --grayscale-12: #202020;
+  --accent-1: #fbfdff;
+  --accent-2: #f4faff;
+  --accent-3: #e6f4fe;
+  --accent-4: #d5efff;
+  --accent-5: #c2e5ff;
+  --accent-6: #acd8fc;
+  --accent-7: #8ec8f6;
+  --accent-8: #5eb1ef;
+  --accent-9: #0090ff;
+  --accent-10: #0588f0;
+  --accent-11: #0d74ce;
+  --accent-12: #113264;
+}
+
+.dark {
+  --grayscale-1: #111111;
+  --grayscale-2: #191919;
+  --grayscale-3: #222222;
+  --grayscale-4: #2a2a2a;
+  --grayscale-5: #313131;
+  --grayscale-6: #3a3a3a;
+  --grayscale-7: #484848;
+  --grayscale-8: #606060;
+  --grayscale-9: #6e6e6e;
+  --grayscale-10: #7b7b7b;
+  --grayscale-11: #b4b4b4;
+  --grayscale-12: #eeeeee;
+  --accent-1: #0d1520;
+  --accent-2: #111927;
+  --accent-3: #0d2847;
+  --accent-4: #003362;
+  --accent-5: #004074;
+  --accent-6: #104d87;
+  --accent-7: #205d9e;
+  --accent-8: #2870bd;
+  --accent-9: #0090ff;
+  --accent-10: #3b9eff;
+  --accent-11: #70b8ff;
+  --accent-12: #c2e6ff;
+}
