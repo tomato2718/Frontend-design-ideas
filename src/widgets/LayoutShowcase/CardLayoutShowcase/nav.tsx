@@ -4,8 +4,14 @@ import { FaHouse } from "react-icons/fa6";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 import { ShrinkableNav, ShrinkableItem } from "@/shared/ShrinkableSideNav";
+import { EclipseToggle } from "@/shared/EclipseSwitcher";
 
-export function SideNav() {
+type ThemeState = {
+  isDarkMode: boolean;
+  setIsDarkMode: (isDarkMode: boolean) => void;
+};
+
+export function SideNav({ themeState }: { themeState: ThemeState }) {
   const [isExpanded, setIsExpanded] = useState(true);
   return (
     <ShrinkableNav isExpanded={isExpanded}>
@@ -16,6 +22,13 @@ export function SideNav() {
           text="Home Page"
         />
       </Link>
+      <EclipseToggle
+        size={10}
+        themeState={{
+          isDarkMode: themeState.isDarkMode,
+          switchTheme: () => themeState.setIsDarkMode(!themeState.isDarkMode),
+        }}
+      />
     </ShrinkableNav>
   );
 }

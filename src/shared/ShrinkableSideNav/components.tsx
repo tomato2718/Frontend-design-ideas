@@ -16,13 +16,20 @@ export function ShrinkableItem({
   return (
     <div
       className={clsx(
-        "flex items-center p-2 gap-2 rounded-md",
+        "flex items-center p-2 rounded-md",
         isExpanded ? "w-full" : "w-min",
         onSelected ? "bg-grayscale-5" : "hover:bg-grayscale-4",
       )}
     >
       <span>{icon}</span>
-      {isExpanded && <span className="text-sm text-nowrap">{text}</span>}
+      <span
+        className={clsx(
+          "text-sm text-nowrap overflow-hidden transition-all duration-200 ease-in-out",
+          isExpanded ? "w-full ml-2" : "w-0",
+        )}
+      >
+        {text}
+      </span>
     </div>
   );
 }
