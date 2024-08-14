@@ -24,8 +24,8 @@ export function ShrinkableItem({
       <span>{icon}</span>
       <span
         className={clsx(
-          "text-sm text-nowrap overflow-hidden transition-all duration-200 ease-in-out",
-          isExpanded ? "w-full ml-2" : "w-0",
+          "text-sm text-nowrap text-start overflow-hidden duration-200 ease-in-out",
+          isExpanded ? "w-full ml-2 transition-all" : "w-0 transition-none",
         )}
       >
         {text}
