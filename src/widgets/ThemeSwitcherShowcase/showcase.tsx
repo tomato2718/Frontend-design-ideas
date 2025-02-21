@@ -1,7 +1,7 @@
 import { EclipseToggleImp } from "./switchers";
 import { GridLayout } from "../_GridBase";
 
-export function ThemeSwitcherGrids() {
+export function ThemeSwitcherShowcase() {
   return (
     <GridLayout>
       <EclipseToggleImp />
