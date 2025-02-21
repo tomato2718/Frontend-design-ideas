@@ -12,6 +12,9 @@ export default function Home() {
         <li className="text-accent-11 hover:text-accent-12">
           <Link href="/theme-switcher">theme switcher</Link>
         </li>
+        <li className="text-accent-11 hover:text-accent-12">
+          <Link href="/toast">toast</Link>
+        </li>
         <li>
           <span>layout</span>
           <ul className="list-inside list-disc ps-4">
